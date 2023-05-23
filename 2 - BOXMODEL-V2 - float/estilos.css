@@ -1,0 +1,42 @@
+body{
+    background-color: #999;
+}
+
+img{
+    width: 300px;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: max-content;
+    padding: 20px;
+    background-color: #FFF;
+}
+
+.card{
+    padding: 10px;
+    background-color: #DEDEDE;
+    width: max-content;
+    border: 1px solid #B8B8B8;
+    display: inline-block;
+}
+
+.title{
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 5px;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.4;
+    width: 300px;
+}
+
