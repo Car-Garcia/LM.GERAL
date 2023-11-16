@@ -1,0 +1,89 @@
+  .tela_login{
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login{
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login img{
+
+    margin-right: -250px;
+  }
+
+  .container-login {
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .info{
+
+    width: 30vw;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+
+    color: #F27706;
+
+    font-size: 40px;
+
+    border-radius: 100px 0 0 0 ;
+  }
+
+  form{
+
+    background-color: #fff;
+
+    border-radius: 0 0 100px 0;
+
+    padding: 50px;
+
+    width: 35vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+
+    font-size: 20px;
+
+    color: #F27706;
+  }
+  
+  .animated-input {
+    padding: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .animated-input:focus {
+    padding: 13px;
+    font-size: 20px;
+  }
+
+  .rotating-image {
+    width: 500px; /* Ajuste o tamanho conforme necessário */
+    height: 500px;
+    animation: rotate 10s linear infinite; /* Ajuste a duração conforme necessário */
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

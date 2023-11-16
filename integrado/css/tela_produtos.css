@@ -1,0 +1,179 @@
+.tela_produtos{
+
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+
+    height: 100vh;
+    width: 8vw;
+
+    background: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(50px);
+
+    padding: 10px 26px 0 26px;
+
+    position: fixed;
+}
+
+.categoria{
+
+    background-color: #fff;
+    border-radius: 20px;
+
+    padding: 10px;
+
+    width: 50px;
+
+    text-align: center;
+
+    padding: 9px;
+
+    margin: 15px 0 0 10px;
+
+    text-align: center;
+}
+
+.categoria span{
+
+    margin-top: 5px;
+}
+
+.user{
+
+    background-image: url(../imagens/user_fulano.svg);
+    background-size: cover;
+
+    width: 70px;
+    height: 70px;
+
+    border-radius: 100%;
+
+    margin-bottom: 150px;
+    margin-top: 20px;
+}
+
+.my_account{
+
+    margin-top: 150px;
+}
+
+.favoritas{
+
+    padding: 2vw 0 2vw 3vw;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.fav_pizza{
+
+    background: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(50px);
+
+    width: 250px;
+    height: 250px;
+
+    padding: 20px;
+
+    border-radius: 100%;
+
+    margin: 0 0 0 60px;
+
+    text-align: center;
+}
+
+.fav_pizza img{
+
+    width: 50%;
+}
+
+.fav_pizza h2{
+
+    font-size: 15px;
+}
+
+.valor{
+
+    background-color: #ff0000;
+
+    width: 100px;
+    height: 30px;
+
+    border-radius: 30px;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+    margin-top: 10px;
+}
+
+.sobremesas{
+
+    justify-content: center;
+
+    width: 92vw;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.fav_sobremesas{
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 350px;
+
+    margin-left: 30px;
+
+    padding: 10px;
+
+    background: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(50px);
+
+    border-radius: 20px;
+}
+
+.fav_sobremesas h2{
+
+    width: 150px;
+
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.info_sobremesas{
+
+    text-align: center;
+}
+
+.fav_sobremesas img{
+
+    height: 100px;
+}
+
+.principal{
+    margin-left: 8vw;
+}
+
+.fav_bebidas{
+
+    width: 150px;
+}
+
+.fav_bebidas img{
+
+    height: 120px;
+}
+
+.bebidas{
+
+    display: flex;
+    flex-direction: row;
+}
